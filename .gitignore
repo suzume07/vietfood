@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+datasets/
+dataset/
+.cache/
+*.cache
+.env
+weights/
+*.pt
