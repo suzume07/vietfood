@@ -9,3 +9,11 @@ dataset/
 .env
 weights/
 *.pt
+
+# Local smoke/debug files and superseded training plot.
+/bus.jpg
+/debug.log
+/reports/precision_trend.png
+
+# Extra dataset-preview sheets are reproducible; report illustrations stay tracked.
+/reports/evaluation/figures/*_val_batch*.jpg

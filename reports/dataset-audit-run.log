@@ -1,0 +1,4 @@
+LABEL AUDIT train: {'images': 161733, 'labels': 161733, 'empty_labels': 630, 'instances': 870943, 'classes_present': 68, 'min_instances_per_class': 5193, 'max_instances_per_class': 48477, 'missing_labels': [], 'invalid_rows': [], 'orphan_labels': [], 'total_image_bytes': 25618240478}
+LABEL AUDIT valid: {'images': 6602, 'labels': 6602, 'empty_labels': 168, 'instances': 11582, 'classes_present': 68, 'min_instances_per_class': 61, 'max_instances_per_class': 668, 'missing_labels': [], 'invalid_rows': [], 'orphan_labels': [], 'total_image_bytes': 491503055}
+LABEL AUDIT test: {'images': 3284, 'labels': 3284, 'empty_labels': 75, 'instances': 5670, 'classes_present': 68, 'min_instances_per_class': 29, 'max_instances_per_class': 323, 'missing_labels': [], 'invalid_rows': [], 'orphan_labels': [], 'total_image_bytes': 246278338}
+DUPLICATE AUDIT: groups=0, holdout-in-train={'valid': 0, 'test': 0}

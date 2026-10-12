@@ -1,0 +1,10 @@
+Host memory: train workers=2, prefetch=2, cache=False
+Host memory: val workers=0, prefetch=None, cache=False
+test_validation_reuses_main_process_without_extra_worker_pool (test_memory_trainer.LoaderMemoryRegression.test_validation_reuses_main_process_without_extra_worker_pool) ... ok
+test_resume_forwards_explicit_batch_override (test_resume_batch.ResumeBatchRegression.test_resume_forwards_explicit_batch_override) ... ok
+test_resume_preserves_checkpoint_batch_when_flag_omitted (test_resume_batch.ResumeBatchRegression.test_resume_preserves_checkpoint_batch_when_flag_omitted) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.524s
+
+OK
