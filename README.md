@@ -11,6 +11,18 @@ Trên 3.284 ảnh test: precision **95,34%**, recall **94,54%**, mAP50 **97,23%*
 mAP50–95 **85,32%**. Số liệu và giao thức nằm trong
 [reports/evaluation/summary.json](reports/evaluation/summary.json).
 
+Bản trình bày để đọc/in: [PDF báo cáo — 30 trang](Bao_cao_VietFood68.pdf),
+kèm [nguồn LaTeX](Bao_cao_VietFood68.tex). Để biên dịch lại trên Windows
+(Times New Roman, Arial, Consolas), tải bộ công cụ portable rồi chạy:
+
+```powershell
+.venv/Scripts/python.exe scripts/setup_pdf_tools.py
+.venv/Scripts/python.exe compile_report.py
+```
+
+Lần đầu cần Internet để tải Pandoc, Tectonic và các gói LaTeX. Công cụ và
+cache nằm trong `.tools/` và `.cache/`, được loại khỏi Git.
+
 Run `vietfood68_5070-2` đã hoàn tất; checkpoint cuối đã strip optimizer.
 Các lệnh/task resume bên dưới dành cho run chưa hoàn tất có checkpoint hợp lệ,
 không dùng để tiếp tục trạng thái optimizer của run đã kết thúc này.

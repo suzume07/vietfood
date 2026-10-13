@@ -17,3 +17,6 @@ weights/
 
 # Extra dataset-preview sheets are reproducible; report illustrations stay tracked.
 /reports/evaluation/figures/*_val_batch*.jpg
+
+# Portable tools for local Markdown/LaTeX/PDF compilation.
+/.tools/
