@@ -20,3 +20,11 @@ weights/
 
 # Portable tools for local Markdown/LaTeX/PDF compilation.
 /.tools/
+
+# Publish only this completed run; other local runs remain ignored.
+!/runs/
+/runs/*
+!/runs/detect/
+/runs/detect/*
+!/runs/detect/vietfood68_5070-2/
+!/runs/detect/vietfood68_5070-2/**

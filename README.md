@@ -23,6 +23,22 @@ kèm [nguồn LaTeX](Bao_cao_VietFood68.tex). Để biên dịch lại trên Win
 Lần đầu cần Internet để tải Pandoc, Tectonic và các gói LaTeX. Công cụ và
 cache nằm trong `.tools/` và `.cache/`, được loại khỏi Git.
 
+## Run và checkpoint đã huấn luyện
+
+Toàn bộ run nằm tại [runs/detect/vietfood68_5070-2](runs/detect/vietfood68_5070-2),
+gồm `best.pt`, `last.pt`, checkpoint định kỳ, cấu hình, log và hình training.
+[upload_manifest.json](runs/detect/vietfood68_5070-2/upload_manifest.json)
+ghi SHA-256 để đối chiếu với bản gốc trên D.
+Checkpoint và log lớn dùng Git LFS; sau khi clone/checkout nhánh báo cáo, chạy:
+
+```powershell
+git lfs install
+git lfs pull
+```
+
+Chạy đánh giá bằng `runs/detect/vietfood68_5070-2/weights/best.pt` sau khi tải
+đủ đối tượng LFS. `best.pt`/`last.pt` đã hoàn tất 150 epoch và strip optimizer.
+
 Run `vietfood68_5070-2` đã hoàn tất; checkpoint cuối đã strip optimizer.
 Các lệnh/task resume bên dưới dành cho run chưa hoàn tất có checkpoint hợp lệ,
 không dùng để tiếp tục trạng thái optimizer của run đã kết thúc này.
