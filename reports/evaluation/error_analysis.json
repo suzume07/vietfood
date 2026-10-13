@@ -1,0 +1,123 @@
+{
+  "confidence": 0.5935935935935935,
+  "matching_iou": 0.5,
+  "method": "Rematch predictions AFTER confidence filtering, original-image coordinates rounded by JSON exporter; class-aware greedy IoU matching.",
+  "totals": {
+    "tp": 5316,
+    "fp": 222,
+    "fn": 354
+  },
+  "micro_precision": 0.9599133261105092,
+  "micro_recall": 0.9375661375661376,
+  "fp_categories": {
+    "no_gt_iou_ge_05": 195,
+    "overlap_same_class_unmatched": 16,
+    "overlap_wrong_class": 11
+  },
+  "images_with_errors": 382,
+  "perfect_nonempty_images": 2829,
+  "empty_correct_images": 73,
+  "examples": [
+    {
+      "file_name": "10a510e484c0f1e6_jpg.rf.66d733789288361520f14cff185b6d2b.jpg",
+      "gt": 1,
+      "predictions": 8,
+      "tp": 0,
+      "fp": 8,
+      "fn": 1
+    },
+    {
+      "file_name": "44_jpg.rf.ba355193b9a3368fe412332162610372.jpg",
+      "gt": 7,
+      "predictions": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 6
+    },
+    {
+      "file_name": "33_jpg.rf.57122550603c1d6c7fddd47b1113338b.jpg",
+      "gt": 8,
+      "predictions": 4,
+      "tp": 3,
+      "fp": 1,
+      "fn": 5
+    },
+    {
+      "file_name": "yt-QzbNsSrMoKE-0038_jpg.rf.9a1ad84f41dc7a630ebb613aa7d25fb7.jpg",
+      "gt": 17,
+      "predictions": 17,
+      "tp": 17,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "file_name": "Download-8-_mp4-0040_jpg.rf.459bfe749ea347a81f4a58c134d98bce.jpg",
+      "gt": 1,
+      "predictions": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "file_name": "Download-1-_mp4-0036_jpg.rf.926a3824b6d072a2e5e37e2dceda1d23.jpg",
+      "gt": 0,
+      "predictions": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  ],
+  "top_confusion_pairs": [
+    [
+      8,
+      36,
+      1
+    ],
+    [
+      11,
+      0,
+      1
+    ],
+    [
+      13,
+      11,
+      1
+    ],
+    [
+      24,
+      12,
+      1
+    ],
+    [
+      30,
+      20,
+      1
+    ],
+    [
+      49,
+      32,
+      1
+    ],
+    [
+      53,
+      17,
+      1
+    ],
+    [
+      56,
+      51,
+      1
+    ],
+    [
+      57,
+      61,
+      1
+    ],
+    [
+      61,
+      63,
+      1
+    ]
+  ],
+  "confusion_matrix_method": "Class-agnostic geometric matching; rows predicted, columns ground truth, last row/column background. TP may differ from class-aware AP matching."
+}

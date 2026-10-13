@@ -1,0 +1,2 @@
+# Keep dependency downloads and build caches off the nearly full system drive.
+cache-dir = "D:/vietfood/uv-cache"

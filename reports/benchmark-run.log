@@ -1,0 +1,39 @@
+{
+  "images": 100,
+  "protocol": {
+    "imgsz": 640,
+    "batch": 1,
+    "device": 0,
+    "quantize": 16,
+    "conf": 0.5935935935935935,
+    "iou": 0.7,
+    "max_det": 300,
+    "verbose": false,
+    "save": false,
+    "augment": false,
+    "rect": false
+  },
+  "warmup_images": 3,
+  "wall_seconds": 1.0890311000403017,
+  "wall_ms_per_image": 10.890311000403017,
+  "wall_images_per_second": 91.82474219175128,
+  "peak_cuda_allocated_bytes": 84043264,
+  "speed_ms": {
+    "preprocess": {
+      "mean": 0.7238500029779971,
+      "median": 0.6778000388294458,
+      "p95": 1.1056000250391662
+    },
+    "inference": {
+      "mean": 7.233769982121885,
+      "median": 6.639500032179058,
+      "p95": 9.726590011268854
+    },
+    "postprocess": {
+      "mean": 0.9929679939523339,
+      "median": 0.9536499856039882,
+      "p95": 1.3359200325794518
+    }
+  },
+  "caveat": "One warm local run, 100 separate predict calls, batch=1. Wall timing includes file loading and Python/API overhead; excludes model loading, warmup, UI, networking and result rendering."
+}
