@@ -1,2 +1,4 @@
 # Install CUDA PyTorch separately first; see README.md.
 ultralytics>=8.3.0,<9
+streamlit
+pillow
